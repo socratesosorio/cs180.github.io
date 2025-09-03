@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS180 Project 0 - Becoming Friends with Your Camera</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-camera-retro"></i>
+                <span>CS180 Project 0</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#part1" class="nav-link">Part 1</a></li>
+                <li><a href="#part2" class="nav-link">Part 2</a></li>
+                <li><a href="#part3" class="nav-link">Part 3</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 1: Selfie -->
+    <section id="part1" class="section part-section">
+        <div class="container">
+            <div class="part-header">
+                <div class="part-number">01</div>
+                <div class="part-info">
+                    <h2 class="part-title">Selfie: The Wrong Way vs. The Right Way</h2>
+                    <p class="part-description">Exploring how distance and zoom affect portrait distortion</p>
+                </div>
+            </div>
+            
+            <div class="part-content">
+                <div class="method-explanation">
+                    <h3>Method</h3>
+                    <div class="method-steps">
+                        <div class="step">
+                            <div class="step-icon wrong">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>The Wrong Way</h4>
+                                <p>Take a close-up selfie portrait, resulting in typical distortion</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon right">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>The Right Way</h4>
+                                <p>Step back several feet, zoom in, maintain same face size</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <h3>Results</h3>
+                    <div class="image-comparison">
+                        <div class="image-container close-up">
+                            <img src="assets/part-1-photo-super-close.jpeg" alt="Close-up Portrait" class="project-image">
+                            <div class="image-caption">
+                                <p>Close-up Portrait<br><span class="image-note">(Distorted)</span></p>
+                            </div>
+                        </div>
+                        <div class="vs-divider">
+                            <span>VS</span>
+                        </div>
+                        <div class="image-container zoomed">
+                            <img src="assets/part-1-photo-far-zoomed-in.jpeg" alt="Zoomed Portrait" class="project-image">
+                            <div class="image-caption">
+                                <p>Zoomed Portrait<br><span class="image-note">(Natural)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="analysis">
+                        <h4>Analysis</h4>
+                        <p class="analysis-text">
+                            Here, I took a picture of Joy from really close. This resulted in a distorted image that makes her facial features look a bit disproportional. After moving back and zooming in, I took the picture on the right. In this picture, we can see that this new portrait captures a more natural perspective of her features.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part 2: Architectural Perspective -->
+    <section id="part2" class="section part-section alt">
+        <div class="container">
+            <div class="part-header">
+                <div class="part-number">02</div>
+                <div class="part-info">
+                    <h2 class="part-title">Architectural Perspective Compression</h2>
+                    <p class="part-description">Demonstrating how zoom affects depth perception in urban scenes</p>
+                </div>
+            </div>
+            
+            <div class="part-content">
+                <div class="method-explanation">
+                    <h3>Method</h3>
+                    <div class="method-steps">
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-search-plus"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>Zoomed Shot</h4>
+                                <p>Take a zoomed photo down a long street or path</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-walking"></i>
+                            </div>
+                            <div class="step-content">
+                                <h4>Walk Closer</h4>
+                                <p>Move closer, take unzoomed photo with similar framing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <h3>Results</h3>
+                    <div class="image-comparison">
+                        <div class="image-container compressed">
+                            <img src="assets/part-2-far-with-zoom.jpg" alt="Compressed View" class="project-image">
+                            <div class="image-caption">
+                                <p>Compressed View<br><span class="image-note">(Far with Zoom)</span></p>
+                            </div>
+                        </div>
+                        <div class="vs-divider">
+                            <span>VS</span>
+                        </div>
+                        <div class="image-container natural-depth">
+                            <img src="assets/part-2-closer-no-zoom.jpg" alt="Natural Depth" class="project-image">
+                            <div class="image-caption">
+                                <p>Natural Depth<br><span class="image-note">(Closer, No Zoom)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="analysis">
+                        <h4>Analysis</h4>
+                        <p class="analysis-text">
+                            Here, I took a picture of an area on campus near the Valley Life Sciences Building. As you can see, the path looks different in the compressed view picture. Also, in that picture, the scene looks flatter. However, if we look at the picture taken closer and with no zoom, we can see the features of the path (like the lines on the floor) and even the bike racks, which are hidden by the perspective of the compressed view.
+                        </p>
+                    </div>
+                    
+                    <div class="additional-example">
+                        <h4>Additional Example</h4>
+                        <div class="image-comparison">
+                            <div class="image-container compressed">
+                                <img src="assets/part-2-example-2-far-with-zoom.jpg" alt="Example 2 Compressed View" class="project-image">
+                                <div class="image-caption">
+                                    <p>Example 2 - Compressed<br><span class="image-note">(Far with Zoom)</span></p>
+                                </div>
+                            </div>
+                            <div class="vs-divider">
+                                <span>VS</span>
+                            </div>
+                            <div class="image-container natural-depth">
+                                <img src="assets/part-2-example-2-closer-no-zoom.jpg" alt="Example 2 Natural Depth" class="project-image">
+                                <div class="image-caption">
+                                    <p>Example 2 - Natural<br><span class="image-note">(Closer, No Zoom)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Part 3: Dolly Zoom -->
+    <section id="part3" class="section part-section">
+        <div class="container">
+            <div class="part-header">
+                <div class="part-number">03</div>
+                <div class="part-info">
+                    <h2 class="part-title">The Dolly Zoom</h2>
+                    <p class="part-description">Creating the classic "Vertigo Effect" through simultaneous movement and zoom</p>
+                </div>
+            </div>
+            
+            <div class="part-content">
+                <div class="method-explanation">
+                    <h3>Method</h3>
+                    <div class="dolly-zoom-explanation">
+                        <div class="technique-box">
+                            <i class="fas fa-video"></i>
+                            <h4>The Vertigo Shot</h4>
+                            <p>Simultaneously move camera back while zooming in, keeping subject size constant</p>
+                        </div>
+                        <div class="steps-grid">
+                            <div class="mini-step">
+                                <span class="step-num">1</span>
+                                <p>Choose scene</p>
+                            </div>
+                            <div class="mini-step">
+                                <span class="step-num">2</span>
+                                <p>Take initial photo</p>
+                            </div>
+                            <div class="mini-step">
+                                <span class="step-num">3</span>
+                                <p>Move back & zoom</p>
+                            </div>
+                            <div class="mini-step">
+                                <span class="step-num">4</span>
+                                <p>Repeat 4-8 times</p>
+                            </div>
+                            <div class="mini-step">
+                                <span class="step-num">5</span>
+                                <p>Create GIF</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <h3>Results</h3>
+                    <div class="dolly-zoom-result">
+                        <div class="gif-container">
+                            <img src="assets/part-3.gif" alt="Dolly Zoom Animation" class="dolly-zoom-gif">
+                        </div>
+                    </div>
+                    
+                    <div class="analysis">
+                        <h4>Analysis</h4>
+                        <p class="analysis-text">
+                            <em>Here is a dolly zoom of my favorite water bottle on a sunny day on campus!</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>CS180 Project 0</h3>
+                    <p>Becoming Friends with Your Camera</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-meta">
+                        <p>UC Berkeley • Computer Vision</p>
+                        <p>Fall 2025</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Created with ❤️ by Socrates Osorio.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
